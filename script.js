@@ -32,18 +32,8 @@ const groupAData = [
     return b.W - a.W;
   });
 
-function handleContinueClick() {
-    document.querySelector('.left-section').style.display = 'none';
-    document.querySelector('.right-section').style.display = 'block';
-
-
-}
-
 
   window.onload = function() {
-    if (window.matchMedia('(max-width: 600px)').matches) {
-      document.querySelector('.left-section').style.display = 'none';
-    }
     renderTable('groupATable', sortedGroupA);
     renderTable('groupBTable', sortedGroupB);
   };
