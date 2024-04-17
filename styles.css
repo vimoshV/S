@@ -23,12 +23,17 @@
   
   table {
     border-collapse: collapse;
+    /* border: 1px solid black; */
     width: 80%;
   }
   
   th,
   td {
     border: 1px solid black;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     padding: 8px;
     text-align: center;
   }
@@ -74,7 +79,7 @@
     table {
       overflow-x: auto; /* Enable horizontal scrolling */
       display: block; /* Enable vertical scrolling if needed */
-      white-space: nowrap;
+      white-space: nowrap; /* Prevent table cells from wrapping */
     }
   
     th,
@@ -86,15 +91,11 @@
     .App {
       display: flex;
       flex-direction: column;
-            justify-content: center;
-    align-items: center;
 
     }
 
     .right-section {
       display: none;
-            justify-content: center;
-    align-items: center;
     }
   
 
