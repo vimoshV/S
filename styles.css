@@ -76,7 +76,6 @@
       overflow-x: auto; /* Enable horizontal scrolling */
       display: block; /* Enable vertical scrolling if needed */
       white-space: nowrap;
-      min-width: 200; /* Prevent table cells from wrapping */
     }
   
     th,
@@ -88,11 +87,15 @@
     .App {
       display: flex;
       flex-direction: column;
+            justify-content: center;
+    align-items: center;
 
     }
 
     .right-section {
       display: none;
+            justify-content: center;
+    align-items: center;
     }
   
 
