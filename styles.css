@@ -23,8 +23,9 @@
   
   table {
     border-collapse: collapse;
-    /* border: 1px solid black; */
     width: 80%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+
   }
   
   th,
@@ -36,10 +37,13 @@
     align-content: center;
     padding: 8px;
     text-align: center;
+    font-family: Popins, sans-serif;
+
   }
   
   th {
     font-weight: bold;
+    font-family: Popins, sans-serif;
   }
   
   .table-heading {
@@ -47,44 +51,43 @@
   }
   
 
-  
   .group-heading {
-    text-align: left;
+    font-family: Popins, sans-serif;
   }
   
   .titleimg{
+    width: 40%;
+  }
+
+  .frontimg{
     width: 60%;
-    height: 60%;
   }
   
   /* Media query for mobile devices */
   @media only screen and (max-width: 600px) {
 
-    table {
-      overflow-x: auto; /* Enable horizontal scrolling */
-      display: block; /* Enable vertical scrolling if needed */
-      white-space: nowrap; /* Prevent table cells from wrapping */
-      width: 80%;
-    }
-  
-    th,
-    td {
-      padding: 8px;
-      text-align: center;
-    }
-  
     .App {
       display: flex;
       flex-direction: column;
 
     }
+    .titleimg{
+        display: none;
+    }
+
+
+
   }
   
   @media only screen and (min-width: 600px) {
+
+  
     .App {
       display: flex;
       flex-direction: row;
     }
+
+
 
   }
   
