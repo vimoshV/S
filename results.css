@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f0f0f0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .container {
+    width: 80%; /* Set container width to 80% */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+  }
+  .match-info {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .match-info img {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .group-name {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+  .match-number {
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+  .filter-select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  #groupFilter {
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .ima {
+    height: 100px;
+  }
+  @media screen and (max-width: 600px) {
+
+    .container {
+        width: 80%; /* Set container width to 80% */
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+        min-width: 300px;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: rgba(240, 248, 255, 0.593);
+      }
+    .match-info img {
+      width: 30px;
+    }
+    .ima {
+    height: 80px;
+  }
+  
+  }
