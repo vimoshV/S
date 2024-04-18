@@ -68,19 +68,6 @@ body {
   }
   @media screen and (max-width: 600px) {
 
-    .container {
-        width: 80%; /* Set container width to 80% */
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        text-align: center;
-        min-width: 300px;
-        margin-bottom: 20px;
-        padding: 10px;
-        background-color: rgba(240, 248, 255, 0.593);
-      }
-    .match-info img {
-      width: 30px;
-    }
     .ima {
     height: 80px;
   }
